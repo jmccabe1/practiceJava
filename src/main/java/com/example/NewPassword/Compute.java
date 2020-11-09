@@ -1,6 +1,6 @@
 package com.example.NewPassword;
 
-public class Compute {
+public class Compute extends Reverse{
     public static Boolean isPalindrome(String line){
         int x = 0;
         boolean result = true;
@@ -34,13 +34,5 @@ public class Compute {
         else return false;
     }
 
-    public static String reversion (String line) {
-        if (line == null || line.equals("")) {
-            return "";
-        }
-        else {
-            return (line.substring(line.length() - 1, line.length()) +
-            reversion(line.substring(0, line.length() - 1)));
-        }
-    }
+
 }

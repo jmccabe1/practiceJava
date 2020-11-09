@@ -15,6 +15,9 @@ class ComputeTest {
     }
 
     @Test
+    void ifPalindromeNumber() { Assert.isTrue(IntegerCompute.intPal(12321));}
+
+    @Test
     void ifStringIsPalindrome9() {
         Assert.isTrue(Compute.palindromeRecursion("bob"));
     }

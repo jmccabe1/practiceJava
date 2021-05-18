@@ -14,4 +14,5 @@ public class Tanks {
     public Tanks(int number) {
         id = number;
     }
+    //Instantiates a tank. This is used in CreateUniqueListFromList.
 }

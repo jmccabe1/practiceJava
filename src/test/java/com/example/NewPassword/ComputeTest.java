@@ -12,9 +12,9 @@ class ComputeTest {
     @Test
     void ifStringIsPalindrome() {
         Assert.isTrue(Compute.isPalindrome("bob"));
-    }
+    } //.isTrue may be depreciated, but it still functions
 
-    @Test
+    @Test //Manually putting @Test over each of these is annoying, but unfortunately necessary
     void ifPalindromeNumber() { Assert.isTrue(IntegerCompute.intPal(12321));}
 
     @Test
@@ -55,7 +55,8 @@ class ComputeTest {
     @Test
     void ifStringIsNotPalindrome7() {
         Assert.isTrue(!Compute.isPalindrome("shujodag;swgdhuo;sgrhujo;ewghuoj;ewfgdhujdfffffffffuhjosdghgjolnsgdhouj;esgrdNHUJOL?esvgDRnhujol//svdBnhujol/srdvbvnhujol/esvgrDhujolaesbnDhujoeasglDashujodvesdghUJOvhdsZUJOghrusoDhgvusdihgusdhgousdnivulasdnlkvbwdihslfhyuiaewrlhgfyuiearwghyiuewahgfiuaewhugieharwiyughreayigh"));
-    }
+    } //A good test deck tests every possible input, up to and including slamming your face on the keyboard for three minutes
+    //In a real environment there's tools with which you can test a maxed length input, but this is serviceable for a small scale puzzle solving exercise
 
     @Test
     void ifStringIsNotPalindrome8() {

@@ -27,8 +27,7 @@ public class Compute extends Reverse{
     }
 
     public static Boolean palindromeRecursion(String line) {
-        String reversed = new String();
-        if (line.equals(reversion(line))) {
+        if (line.equals(reverse(line))) {
             return true;
         }
         else return false;

@@ -23,42 +23,42 @@ class ComputeTest {
     }
 
     @Test
-    void ifStringIsNotPalidnrome() {
+    void ifStringIsNotPalindrome() {
         Assert.isTrue(!Compute.isPalindrome("boo"));
     }
 
     @Test
-    void ifStringIsNotPalidnrome2() {
+    void ifStringIsNotPalindrome2() {
         Assert.isTrue(Compute.isPalindrome("AAAA"));
     }
 
     @Test
-    void ifStringIsNotPalidnrome3() {
+    void ifStringIsNotPalindrome3() {
         Assert.isTrue(!Compute.isPalindrome("John"));
     }
 
     @Test
-    void ifStringIsNotPalidnrome4() {
+    void ifStringIsNotPalindrome4() {
         Assert.isTrue(!Compute.isPalindrome("johj"));
     }
 
     @Test
-    void ifStringIsNotPalidnrome5() {
+    void ifStringIsNotPalindrome5() {
         Assert.isTrue(!Compute.isPalindrome("Jooj"));
     }
 
     @Test
-    void ifStringIsNotPalidnrome6() {
+    void ifStringIsNotPalindrome6() {
         Assert.isTrue(!Compute.isPalindrome(""));
     }
 
     @Test
-    void ifStringIsNotPalidnrome7() {
+    void ifStringIsNotPalindrome7() {
         Assert.isTrue(!Compute.isPalindrome("shujodag;swgdhuo;sgrhujo;ewghuoj;ewfgdhujdfffffffffuhjosdghgjolnsgdhouj;esgrdNHUJOL?esvgDRnhujol//svdBnhujol/srdvbvnhujol/esvgrDhujolaesbnDhujoeasglDashujodvesdghUJOvhdsZUJOghrusoDhgvusdihgusdhgousdnivulasdnlkvbwdihslfhyuiaewrlhgfyuiearwghyiuewahgfiuaewhugieharwiyughreayigh"));
     }
 
     @Test
-    void ifStringIsNotPalidnrome8() {
+    void ifStringIsNotPalindrome8() {
         Assert.isTrue(!Compute.isPalindrome(null));
     }
 

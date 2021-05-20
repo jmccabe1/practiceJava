@@ -9,6 +9,6 @@ public class NewPasswordApplication { //This name is a relic from a time when I 
 	public static void main(String[] args) {
 		SpringApplication.run(NewPasswordApplication.class, args);
 	}
-	//Here is where we start the Gradle daemon which executes the logic for the palindrome
+	//Here is where we start the Gradle daemon which executes the logic for the palindrome and substring puzzles
 
 }

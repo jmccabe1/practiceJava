@@ -12,4 +12,9 @@ public class Controller { //This is primarily practice with REST, which is why I
         
         return Compute.isPalindrome(parameterName).toString();//Compute.isPalindrome() returns a boolean, so it needs a toString in order to display properly
     }
+
+    @GetMapping("/substring/{parameterName}") //This GetMapping is used for the substring method in LongestUniqueSubstring
+    String findSubstring(@PathVariable ("parameterName") String parameterName) {
+        return LongestUniqueSubstring.findSubstring(parameterName);
+    }
 }
